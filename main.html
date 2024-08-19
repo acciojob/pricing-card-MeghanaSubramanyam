@@ -4,12 +4,75 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        /* Card container */
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Image inside the card */
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Title of the card */
+        .card h1 {
+            font-size: 24px;
+            margin: 20px 0 10px;
+        }
+
+        /* Pricing information */
+        .card p.price {
+            font-size: 20px;
+            color: #28a745;
+            margin: 10px 0;
+        }
+
+        /* Description of the product or service */
+        .card p.description {
+            font-size: 16px;
+            color: #6c757d;
+            margin: 10px 0;
+        }
+
+        /* Buy Now button */
+        .card button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Button hover effect */
+        .card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<div class="card">
+		<img src="https://storage.googleapis.com/acciojob-open-file-collections/pricing-card.png" alt="price">
+		<h1>Pricing Card</h1>
+		<p class="price">Price:Rs.200</p>
+		<p class="Description">Description:Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+		<button>Buy Now</button>
+	</div>
 
 </body>
 
